@@ -1,4 +1,4 @@
-# skyblock_of_discordia
+# Skyblock of Discordia
 
 Modpack of new experiences with a bit of progress
 
