@@ -1,55 +1,40 @@
-# Skyblock of Discordia
-
-Description:
+#Description:
 
 Modpack of new experiences with a bit of progression with a bit of kubejs scripts
 
-
-Quest Description:
-
- 
+#Quest Description:
 
 1. Introduction / welcome
 
- 
 
 2. Resource Generators
 
- 
 
-- On this pack there are many types that you can choise after you reach them
+  - On this pack there are many types that you can choise after you reach them
 
- 
 
 3. Mod-line/ Progression of mods
 
- 
 
-- Many main mod are locked by a single recipe but all with possible farms or autocraftings
+  - Many main mod are locked by a single recipe but all with possible farms or autocraftings
 
- 
 
 4. Utility
 
- 
 
-- Where are many blocks or items where you didn't know or never used before example small tree cutter (by engineer decor) or oak sapling fertile soil (by essentials)
+  - Where are many blocks or items where you didn't know or never used before example small tree cutter (by engineer decor) or oak sapling fertile soil (by essentials)
 
- 
 
 5. Storage suggestion 
 
- 
 
-- A great area when you need space or automations
+  - A great area when you need space or automations
 
- 
 
 6. Challenges / "The real goal of modpack"
 
- 
 
-- Many endgame stuff or hardcore things that can help you or challenge you!
+  - Many endgame stuff or hardcore things that can help you or challenge you!
 
  
 
@@ -57,7 +42,7 @@ Mainly all quests have as reward Randomium ore that can give you everything of t
 
  
 
-Mainly mod:
+Main mods:
 
 Pneumaticcraft
 
