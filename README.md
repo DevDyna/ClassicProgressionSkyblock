@@ -96,4 +96,4 @@ Version MC 1.19.2
 
 Version Forge 43.2.4
 
-Download CurseForge link : https://www.curseforge.com/minecraft/modpacks/skyblock-of-discordia
+Download available only on CurseForge : https://www.curseforge.com/minecraft/modpacks/skyblock-of-discordia
