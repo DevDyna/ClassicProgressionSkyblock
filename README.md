@@ -40,6 +40,8 @@ Modpack of new experiences with a bit of progression with a bit of kubejs script
 
 Mainly all quests have as reward Randomium ore that can give you everything of this modpack ( warning can be unbalanced but not report because is planned! )
 
+
+All progression not limit you on use differents way to create farms or other , only limit you to use types of mods example you can use Ars Nouveau turrets to harvest a tree or Pneumaticcraft drones or Create constructions or directly dissolve things to obtain others to make wood via Alchemistry
  
 
 Main mods:
