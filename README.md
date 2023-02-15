@@ -92,7 +92,7 @@ and more...
 
  
 
-Ispired from Ultimate Alchemistry and Project Isothermal but more simple and complete
+Ispired from Ultimate Alchemy and Project Isothermal but more simple and complete
 
 Version MC 1.19.2
 
