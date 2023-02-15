@@ -1,6 +1,6 @@
 #Description:
 
-Modpack of new experiences with a bit of progression with a bit of kubejs scripts
+A not-expert modpack sky based to be lite without force player on progress
 
 #Quest Description:
 
