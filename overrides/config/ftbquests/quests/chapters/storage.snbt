@@ -110,7 +110,14 @@
 			tasks: [{
 				id: "75943CD48BC6C2EC"
 				type: "item"
-				item: "minecraft:chest"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
 			}]
 			rewards: [{
 				id: "5099E2BE53A78A83"

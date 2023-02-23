@@ -207,7 +207,8 @@
 				{
 					id: "121292C0E7DB62AB"
 					type: "item"
-					item: "cyclic:compressed_cobblestone"
+					title: "Sturdy stone"
+					item: "quark:sturdy_stone"
 					count: 111111111111111111L
 					consume_items: true
 				}
