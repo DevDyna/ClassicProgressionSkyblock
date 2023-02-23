@@ -149,6 +149,15 @@ event.stonecutting('hexerei:mandrake_flower','rootsclassic:aesthetic_standing_st
 event.stonecutting('ars_nouveau:source_berry','rootsclassic:aesthetic_standing_stone')
 
 	
+	  event.custom({
+    type: 'exnihilosequentia:compost',
+    input: [
+      Ingredient.of('#rootsclassic:berries').toJson()
+    ],
+    amount: 100
+  })
+	
+	
 })
 
 ServerEvents.tags('item', event => {
