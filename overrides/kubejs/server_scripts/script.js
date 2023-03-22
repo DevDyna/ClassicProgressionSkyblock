@@ -148,7 +148,7 @@ event.stonecutting('hexerei:mugwort_bush','rootsclassic:aesthetic_standing_stone
 event.stonecutting('hexerei:mandrake_flower','rootsclassic:aesthetic_standing_stone')
 event.stonecutting('ars_nouveau:source_berry','rootsclassic:aesthetic_standing_stone')
 
-	
+	// dirt by roots
 	  event.custom({
     type: 'exnihilosequentia:compost',
     input: [
@@ -156,6 +156,126 @@ event.stonecutting('ars_nouveau:source_berry','rootsclassic:aesthetic_standing_s
     ],
     amount: 100
   })
+  
+  
+  //crossroad compatibility with other raw materials
+  //lead
+  	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/lead').toJson()
+    ,
+    output:[
+			Item.of('thermal:lead_dust').toJson(),
+			Item.of('thermal:lead_dust').toJson()
+		]
+		
+  })
+  //silver
+    	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/silver').toJson()
+    ,
+    output:[
+			Item.of('thermal:silver_dust').toJson(),
+			Item.of('thermal:silver_dust').toJson()
+	]
+  })
+  //nickel
+      	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/nickel').toJson()
+    ,
+    output:[
+			Item.of('thermal:nickel_dust').toJson(),
+			Item.of('thermal:nickel_dust').toJson()
+		]
+  })
+  //uranium
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/uranium').toJson()
+    ,
+    output:[
+			Item.of('mekanism:dust_uranium').toJson(),
+			Item.of('mekanism:dust_uranium').toJson()
+		]
+  })
+  //platinum
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/platinum').toJson()
+    ,
+    output:[
+			Item.of('moremekanismprocessing:dust_platinum').toJson(),
+			Item.of('moremekanismprocessing:dust_platinum').toJson()
+		]
+  })
+  //osmium
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/osmium').toJson()
+    ,
+    output:[
+			Item.of('mekanism:dust_osmium').toJson(),
+			Item.of('mekanism:dust_osmium').toJson()
+		]
+  })
+  //zinc
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/zinc').toJson()
+    ,
+    output:[
+			Item.of('createbb:crushed_zinc').toJson(),
+			Item.of('createbb:crushed_zinc').toJson()
+		]
+  })
+  //aluminum
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/aluminum').toJson()
+    ,
+    output:[
+			Item.of('moremekanismprocessing:dust_aluminum').toJson(),
+			Item.of('moremekanismprocessing:dust_aluminum').toJson()
+		]
+  })
+  //crimson_iron
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/crimson_iron').toJson()
+    ,
+    output:[
+			Item.of('silentgear:crimson_iron_dust').toJson(),
+			Item.of('silentgear:crimson_iron_dust').toJson()
+		]
+  })
+  //azure_silver
+        	  event.custom({
+    type: 'crossroads:mill',
+    input: Ingredient.of('#forge:raw_materials/azure_silver').toJson()
+    ,
+    output:[
+			Item.of('silentgear:azure_silver_dust').toJson(),
+			Item.of('silentgear:azure_silver_dust').toJson()
+		]
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 	
 	
 })
@@ -166,8 +286,8 @@ ServerEvents.tags('item', event => {
 	event.get('extractinator:rare_drops').add('extractinator:silt')
 	event.get('extractinator:rare_drops').add('evilcraft:dark_gem')
 	event.get('extractinator:rare_drops').add('hexerei:selenite_shard')
-	
-	
+	event.get('extractinator:rare_drops').add('silentgear:raw_crimson_iron')
+	event.get('extractinator:rare_drops').add('silentgear:raw_azure_silver')
 	
 	
 })
