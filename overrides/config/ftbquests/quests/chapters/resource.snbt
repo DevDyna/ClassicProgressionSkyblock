@@ -1,0 +1,275 @@
+{
+	id: "3F2BAA2FC9175776"
+	group: ""
+	order_index: 1
+	filename: "resource"
+	title: "Resource"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Phase 1"
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["45821368FB920008"]
+			id: "5B7EB84A3ED56109"
+			tasks: [{
+				id: "2A8EA257915EA36F"
+				type: "item"
+				title: "Any #exnihilosequentia:sieves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:sieves"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0353C6F066487251"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 2.1"
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["5B7EB84A3ED56109"]
+			id: "253C4ABF85FD9A88"
+			tasks: [{
+				id: "44F84843AA26B8E7"
+				type: "item"
+				item: "extractinator:extractinator"
+			}]
+			rewards: [{
+				id: "4ADE6DE8F6851E66"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 2.0"
+			x: -5.0d
+			y: -4.0d
+			dependencies: ["5B7EB84A3ED56109"]
+			dependency_requirement: "one_started"
+			id: "65887368EE819246"
+			tasks: [{
+				id: "2F395F8FD6A2F9F2"
+				type: "item"
+				item: "exmachinis:flux_sieve"
+			}]
+			rewards: [{
+				id: "6C0A186963AF44BA"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 5.0"
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["22891A295C41DCF6"]
+			id: "526CDBAF021D73E1"
+			tasks: [{
+				id: "15733E25B5E99B18"
+				type: "item"
+				item: "compactvoidminers:void_miner"
+			}]
+			rewards: [{
+				id: "2D1561BE9358E82C"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 3.1"
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["7AD88741369537B9"]
+			id: "7B2608C83A8CDB4E"
+			tasks: [
+				{
+					id: "69F5CC35BFA42FCF"
+					type: "item"
+					item: "createoreexcavation:drilling_machine"
+				}
+				{
+					id: "45A6E16D31746910"
+					type: "item"
+					item: "createoreexcavation:drill"
+				}
+			]
+			rewards: [{
+				id: "358A0A6240245AD9"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 4.0"
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["6CE84E2AFC05B812"]
+			id: "01C64040E69601C3"
+			tasks: [
+				{
+					id: "3F1B5FB60937DB29"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+				{
+					id: "3D0EFE6286B29119"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+				{
+					id: "4B6FA7CB6D76A471"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+			]
+			rewards: [{
+				id: "082869EC7AE8BDB4"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 3.2"
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["73C3BBDAA5F3B423"]
+			id: "7241B5A5C8C016A4"
+			tasks: [
+				{
+					id: "49FCA163AB186912"
+					type: "item"
+					item: "botania:orechid"
+				}
+				{
+					id: "3290457DDF1B85A2"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "56EB564E2D3512A4"
+					type: "item"
+					item: "minecraft:deepslate"
+				}
+			]
+			rewards: [{
+				id: "5D9D733B6A6F955E"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Phase 3.0"
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["7AD88741369537B9"]
+			id: "3786363B27D034BD"
+			tasks: [
+				{
+					id: "2CD248739B06D7EB"
+					type: "item"
+					item: "createsifter:sifter"
+				}
+				{
+					id: "06734FD7CB0D0501"
+					type: "item"
+					item: {
+						id: "createsifter:brass_mesh"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "572A4D91A6B757BF"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Barrel"
+			x: 4.0d
+			y: -6.0d
+			dependencies: ["5B7EB84A3ED56109"]
+			invisible: true
+			id: "5671A8B0B7A46FC5"
+			tasks: [
+				{
+					id: "56666E2C3CA192B5"
+					type: "item"
+					title: "Any #exnihilosequentia:barrels"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:barrels"
+						}
+					}
+				}
+				{
+					id: "36B2BFC3999D1A45"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [{
+				id: "73411BF706DD0F70"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["5671A8B0B7A46FC5"]
+			id: "404ABC45B3CA56E7"
+			tasks: [{
+				id: "4A5F3E5646DFFFE4"
+				type: "item"
+				item: "exnihilosequentia:string_mesh"
+			}]
+			rewards: [{
+				id: "29BC4197F8417FE7"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Skip of the normal start progression"
+			dependencies: ["404ABC45B3CA56E7"]
+			id: "2D699007875C8AB2"
+			tasks: [{
+				id: "35820C37C717DA0A"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [
+				{
+					id: "610FB6F9EA0E8905"
+					type: "item"
+					item: "randomium:randomium_ore"
+				}
+				{
+					id: "073AF01FB0A61D60"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "71E6B4644CFAA978"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
