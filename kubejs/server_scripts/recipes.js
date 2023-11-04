@@ -257,27 +257,101 @@ ServerEvents.recipes(event => {
         ]
     })
 
-    //backported from ironberry scripts
-    function scut(result, input) {
+	event.remove({id: 'naturesaura:tree_ritual/ancient_sapling'})
+
+	event.custom({
+    "type": "naturesaura:tree_ritual",
+    "ingredients": [
+        {
+            "item": "minecraft:oak_sapling"
+        },
+        {
+            "tag": "minecraft:flowers"
+        },
+        {
+            "tag": "minecraft:flowers"
+        },
+        {
+            "tag": "forge:seeds"
+        },
+        {
+            "item": "minecraft:sugar_cane"
+        },
+        {
+            "item": "naturesaura:gold_leaf"
+        }
+    ],
+    "sapling": {
+        "item": "minecraft:oak_sapling"
+    },
+    "output": {
+        "item": "naturesaura:ancient_sapling",
+        "count": 2
+    },
+    "time": 200
+}).id('ancient_sapling_fix')
+
+
+function RegX(string, replace) {
+    if (typeof optionalValue != 'undefined') { //if replace still defined
+        return string.replace(/[^a-zA-Z0-9_ ]/g, replace)
+    } else {
+        return string.replace(/[^a-zA-Z0-9_ ]/g, '')
+    }
+
+}
+
+	    function scut(result, input){
         for (let j = 0; j < input.length; j++) {
             for (let i = 0; i < result.length; i++) {
                 event.stonecutting(
                     result[i],
-                    input[j]).id(RegX(input[j] + '_n' + i))
+                    input[j]).id(RegX(input[j]+'_n'+i))
             }
         }
     }
-    //ported on ironberry scripts
-    function scut_multi(list) {
-        let tsil = list.reverse()
-            for (let i = 0; i < list.length; i++) {
-                scut(list[i], tsil[i])
-                console.log(i)
-                console.log(list[i])
-                console.log(tsil[i])
-            }
-    }
+	
 
-    scut_multi(data.item.flower)
+	scut([
+	'minecraft:white_tulip', 
+	'minecraft:orange_tulip', 
+	'minecraft:red_tulip', 
+	'minecraft:azure_bluet', 
+	'minecraft:allium', 
+	'minecraft:blue_orchid', 
+	'minecraft:poppy', 
+	'minecraft:dandelion', 
+	'minecraft:pink_tulip', 
+	'minecraft:oxeye_daisy', 
+	'minecraft:cornflower', 
+	'minecraft:lily_of_the_valley', 
+	'minecraft:wither_rose',
+	'minecraft:spore_blossom'],
+	['botania:fertilizer'])
+
+
+
+event.custom({
+  "type": "mowlib:dualhandedcrafting",
+  "blockTarget": {
+    "item": "minecraft:spore_blossom"
+  },
+  "mainhandTool": {
+    "item": 'quark:trowel'
+  },
+  "offhandTool": {
+    "tag": 'forge:tools/pickaxes'
+  },
+  "result": {
+    "item": "minecraft:moss_block"
+  }
+}).id('moss')
+
+
+
+
+
+
+
 
 })
