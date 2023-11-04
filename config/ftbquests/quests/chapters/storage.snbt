@@ -1,0 +1,245 @@
+{
+	id: "3AD789A5F69A1ECF"
+	group: ""
+	order_index: 4
+	filename: "storage"
+	title: "Storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "AE2 Network"
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"1BD32A3E37F12F83"
+				"49E2BF2F83531952"
+			]
+			id: "255415C5F254A1B0"
+			tasks: [{
+				id: "6ADCA4D0D11A5E1D"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+			rewards: [{
+				id: "2452B75E1EF7068B"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Cloud Storage"
+			x: -1.0d
+			y: 1.0d
+			dependencies: [
+				"49E2BF2F83531952"
+				"63BC4A77C18D8790"
+			]
+			id: "3674A906780A642A"
+			tasks: [{
+				id: "770053D35288AABE"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+			rewards: [{
+				id: "202FA584C1672F0E"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Integrated Network"
+			x: -1.0d
+			y: -3.0d
+			dependencies: [
+				"49E2BF2F83531952"
+				"441605C2B1FB660D"
+			]
+			id: "24751162858BB53E"
+			tasks: [{
+				id: "47012514AA3517BE"
+				type: "item"
+				item: "integratedterminals:part_terminal_storage"
+			}]
+			rewards: [{
+				id: "2F394F82AC634AA0"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: [
+				"49E2BF2F83531952"
+				"23D10A3304E71369"
+			]
+			id: "477C36C49A7661F4"
+			tasks: [{
+				id: "46BFCCB851277C22"
+				type: "item"
+				item: "rftoolsstorage:storage_scanner"
+			}]
+			rewards: [{
+				id: "3F5D1CBA7D11FE2D"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["3CAF60F070CA7072"]
+			id: "49E2BF2F83531952"
+			tasks: [{
+				id: "20BAF14E2DF22C3E"
+				type: "item"
+				item: "craftingstation:crafting_station"
+			}]
+			rewards: [{
+				id: "386A97053CBB893D"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["3CAF60F070CA7072"]
+			id: "1319980851A2FFF7"
+			tasks: [{
+				id: "75943CD48BC6C2EC"
+				type: "item"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5099E2BE53A78A83"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["1319980851A2FFF7"]
+			id: "5D919F5774E38F95"
+			tasks: [{
+				id: "3CEC664CD0D5A972"
+				type: "item"
+				item: "ironchests:diamond_chest"
+			}]
+			rewards: [{
+				id: "2320B7EF4AA50ADD"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: [
+				"1319980851A2FFF7"
+				"255415C5F254A1B0"
+			]
+			id: "07064308CB7816FF"
+			tasks: [{
+				id: "19C291B4B620159C"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+			rewards: [{
+				id: "41B0B5CFE272B1B7"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["1319980851A2FFF7"]
+			id: "376E213E3B7A50D3"
+			tasks: [{
+				id: "4910A8F8EF3D7F92"
+				type: "item"
+				item: "rftoolsstorage:modular_storage"
+			}]
+			rewards: [{
+				id: "535B263E7F211CD1"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["1319980851A2FFF7"]
+			id: "4AB61334BAB1A456"
+			tasks: [{
+				id: "19A8C10643ED16A7"
+				type: "item"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+			rewards: [{
+				id: "018D77EFD7D70DE2"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Sophisticated Network"
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["1319980851A2FFF7"]
+			id: "0A68EECA44A7043D"
+			tasks: [{
+				id: "32FE4BAD2515C270"
+				type: "item"
+				item: "sophisticatedstorage:controller"
+			}]
+			rewards: [{
+				id: "1FB210842BB5CADF"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+		{
+			title: "Functional Storage"
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["1319980851A2FFF7"]
+			id: "6BD9F660F7D74519"
+			tasks: [
+				{
+					id: "5A833A9633C53CA6"
+					type: "item"
+					item: "functionalstorage:storage_controller"
+				}
+				{
+					id: "725A6EE1D4813D1C"
+					type: "item"
+					title: "Any #functionalstorage:drawer"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7340228AAE139AB0"
+				type: "item"
+				item: "randomium:randomium_ore"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
