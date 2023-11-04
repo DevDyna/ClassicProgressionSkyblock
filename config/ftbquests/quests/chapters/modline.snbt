@@ -1,105 +1,102 @@
 {
-	id: "26C96E3984D11E9E"
-	group: ""
-	order_index: 2
-	filename: "modline"
-	title: "Mod-line"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modline"
+	group: ""
+	id: "26C96E3984D11E9E"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Industrial Foregoing"
-			x: 1.0d
-			y: 10.0d
 			dependencies: [
 				"0616D1EF3F547DFD"
 				"72AEBF593B47AB70"
 				"58684AB1BEE06276"
 			]
 			id: "6CE84E2AFC05B812"
-			tasks: [{
-				id: "17436BC8C56EDC1A"
-				type: "item"
-				item: "industrialforegoing:machine_frame_pity"
-			}]
 			rewards: [{
 				id: "6E538C8EB2787239"
-				type: "item"
 				item: "randomium:randomium_ore"
+				type: "item"
 			}]
+			tasks: [{
+				id: "17436BC8C56EDC1A"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Industrial Foregoing"
+			x: 1.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["7FE4AF4B63E6D70D"]
+			id: "23D10A3304E71369"
+			rewards: [{
+				id: "30D1653112D71306"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B915CE9CC3F97AA"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
 			title: "Rftools"
 			x: -4.0d
 			y: 1.0d
-			dependencies: ["7FE4AF4B63E6D70D"]
-			id: "23D10A3304E71369"
-			tasks: [{
-				id: "3B915CE9CC3F97AA"
-				type: "item"
-				item: "rftoolsbase:machine_frame"
-			}]
-			rewards: [{
-				id: "30D1653112D71306"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
+			dependencies: ["30470126819A05A1"]
+			id: "15FBBDB68B88DEC6"
+			rewards: [{
+				id: "425D5822A2554002"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C53B40387945E05"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
 			title: "Thermal"
 			x: -4.0d
 			y: 3.0d
-			dependencies: ["30470126819A05A1"]
-			id: "15FBBDB68B88DEC6"
-			tasks: [{
-				id: "6C53B40387945E05"
-				type: "item"
-				item: "thermal:machine_frame"
-			}]
-			rewards: [{
-				id: "425D5822A2554002"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
+			dependencies: ["45821368FB920008"]
+			id: "30470126819A05A1"
+			rewards: [{
+				id: "2A08C658E9E10462"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE20976F4A9B507"
+				item: "alchemistry:combiner"
+				type: "item"
+			}]
 			title: "Chemistry"
 			x: -7.0d
 			y: 3.0d
-			dependencies: ["45821368FB920008"]
-			id: "30470126819A05A1"
-			tasks: [{
-				id: "3AE20976F4A9B507"
-				type: "item"
-				item: "alchemistry:combiner"
-			}]
-			rewards: [{
-				id: "2A08C658E9E10462"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
+			dependencies: ["45821368FB920008"]
+			id: "7FE4AF4B63E6D70D"
+			rewards: [{
+				id: "37810C15AF0537FE"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5862CF58B90232A2"
+				item: "pneumaticcraft:spawner_agitator"
+				type: "item"
+			}]
 			title: "Pneumaticraft"
 			x: -7.0d
 			y: 1.0d
-			dependencies: ["45821368FB920008"]
-			id: "7FE4AF4B63E6D70D"
-			tasks: [{
-				id: "5862CF58B90232A2"
-				type: "item"
-				item: "pneumaticcraft:spawner_agitator"
-			}]
-			rewards: [{
-				id: "37810C15AF0537FE"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
-			title: "Mekanism"
-			x: 7.0d
-			y: 3.0d
 			dependencies: [
 				"15FBBDB68B88DEC6"
 				"23D10A3304E71369"
@@ -107,291 +104,294 @@
 				"0AB8B24E67D9F485"
 			]
 			id: "22891A295C41DCF6"
-			tasks: [{
-				id: "55DFAC6040B2ABEA"
-				type: "item"
-				item: "mekanism:steel_casing"
-			}]
 			rewards: [{
 				id: "7F7979F1B2D75FAF"
-				type: "item"
 				item: "randomium:randomium_ore"
+				type: "item"
 			}]
+			tasks: [{
+				id: "55DFAC6040B2ABEA"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Mekanism"
+			x: 7.0d
+			y: 3.0d
 		}
 		{
-			title: "AE2"
-			x: -4.0d
-			y: -3.0d
 			dependencies: ["14767CC31224A68E"]
 			dependency_requirement: "one_completed"
 			id: "1BD32A3E37F12F83"
+			rewards: [{
+				id: "3E31D5AB161B2429"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5052D569F2EA42E7"
-					type: "item"
 					item: "ae2:calculation_processor_press"
+					type: "item"
 				}
 				{
 					id: "7A0B13F4C452F3F6"
-					type: "item"
 					item: "ae2:charger"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3E31D5AB161B2429"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
+			title: "AE2"
+			x: -4.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["45821368FB920008"]
+			id: "14767CC31224A68E"
+			rewards: [{
+				id: "4760206819866DEE"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "7AFF6862206F4915"
+				type: "advancement"
+			}]
 			title: "Villagers"
 			x: -7.0d
 			y: -1.0d
-			dependencies: ["45821368FB920008"]
-			id: "14767CC31224A68E"
-			tasks: [{
-				id: "7AFF6862206F4915"
-				type: "advancement"
-				advancement: "minecraft:story/cure_zombie_villager"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "4760206819866DEE"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
-			title: "Cloud Trading"
-			x: -4.0d
-			y: -1.0d
 			dependencies: [
 				"14767CC31224A68E"
 				"7FE4AF4B63E6D70D"
 			]
 			id: "63BC4A77C18D8790"
-			tasks: [{
-				id: "121E725ECB13C7A7"
-				type: "item"
-				item: "cloudstorage:balloon_stand"
-			}]
 			rewards: [{
 				id: "2B3F0BD588815A4B"
-				type: "item"
 				item: "randomium:randomium_ore"
+				type: "item"
 			}]
+			tasks: [{
+				id: "121E725ECB13C7A7"
+				item: "cloudstorage:balloon_stand"
+				type: "item"
+			}]
+			title: "Cloud Trading"
+			x: -4.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["45821368FB920008"]
+			id: "7ADEC1BE88DC6CC0"
+			rewards: [{
+				id: "53D9203ED446F5C2"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FA3F8BC494B5791"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
 			title: "Nature Aura"
 			x: -7.0d
 			y: 7.0d
-			dependencies: ["45821368FB920008"]
-			id: "7ADEC1BE88DC6CC0"
-			tasks: [{
-				id: "0FA3F8BC494B5791"
-				type: "item"
-				item: "naturesaura:ancient_sapling"
-			}]
-			rewards: [{
-				id: "53D9203ED446F5C2"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
+			dependencies: ["7ADEC1BE88DC6CC0"]
+			id: "441605C2B1FB660D"
+			rewards: [{
+				id: "37CB645723CA7C19"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2757D00E2B14F1D6"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
 			title: "Integrated Dynamics"
 			x: -4.0d
 			y: 7.0d
-			dependencies: ["7ADEC1BE88DC6CC0"]
-			id: "441605C2B1FB660D"
-			tasks: [{
-				id: "2757D00E2B14F1D6"
-				type: "item"
-				item: "integrateddynamics:menril_sapling"
-			}]
-			rewards: [{
-				id: "37CB645723CA7C19"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
-			x: -4.0d
-			y: 5.0d
 			dependencies: ["7ADEC1BE88DC6CC0"]
 			id: "61C9BD54B3A22245"
+			rewards: [{
+				id: "26B2DD11D9D2A4F4"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "190E9A3798C21A2D"
-					type: "item"
-					title: "Ars Magica"
 					item: "ars_nouveau:purple_archwood_sapling"
+					title: "Ars Magica"
+					type: "item"
 				}
 				{
 					id: "7F0D4EE2E12CF0C8"
-					type: "item"
 					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
 				}
 				{
 					id: "2D160A0DACFD35E2"
-					type: "item"
 					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
 				}
 				{
 					id: "7B9314B30EA9EF45"
-					type: "item"
 					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "26B2DD11D9D2A4F4"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			title: "Hexerei"
-			x: -4.0d
-			y: 9.0d
 			dependencies: [
 				"7ADEC1BE88DC6CC0"
 				"253C4ABF85FD9A88"
 			]
 			id: "0616D1EF3F547DFD"
+			rewards: [{
+				id: "5B5728692E08AC97"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "69FB6D1181149B89"
-					type: "item"
 					item: "hexerei:mahogany_sapling"
+					type: "item"
 				}
 				{
 					id: "1C07DE2773914761"
-					type: "item"
 					item: "hexerei:willow_sapling"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "5B5728692E08AC97"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
+			title: "Hexerei"
+			x: -4.0d
+			y: 9.0d
 		}
 		{
-			title: "EvilCraft"
-			x: 1.0d
-			y: 7.0d
 			dependencies: [
 				"441605C2B1FB660D"
 				"73C3BBDAA5F3B423"
 				"253C4ABF85FD9A88"
 			]
 			id: "72AEBF593B47AB70"
-			tasks: [{
-				id: "5202CFDDF6A80C5D"
-				type: "item"
-				item: "evilcraft:dark_gem_crushed"
-			}]
 			rewards: [{
 				id: "1DCD758D2EB2E105"
-				type: "item"
 				item: "randomium:randomium_ore"
+				type: "item"
 			}]
+			tasks: [{
+				id: "5202CFDDF6A80C5D"
+				item: "evilcraft:dark_gem_crushed"
+				type: "item"
+			}]
+			title: "EvilCraft"
+			x: 1.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["45821368FB920008"]
+			id: "58684AB1BEE06276"
+			rewards: [{
+				id: "655C90F15442E668"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25E8338F4A0A5F00"
+				item: "rootsclassic:aesthetic_standing_stone"
+				type: "item"
+			}]
 			title: "Roots Classic"
 			x: -7.0d
 			y: 10.0d
-			dependencies: ["45821368FB920008"]
-			id: "58684AB1BEE06276"
-			tasks: [{
-				id: "25E8338F4A0A5F00"
-				type: "item"
-				item: "rootsclassic:aesthetic_standing_stone"
-			}]
-			rewards: [{
-				id: "655C90F15442E668"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
-			title: "Totemic"
-			x: 7.0d
-			y: 12.0d
-			subtitle: "Hint: See the manual"
 			dependencies: [
 				"7AD88741369537B9"
 				"6126274A27E78754"
 			]
 			id: "0AB8B24E67D9F485"
-			tasks: [{
-				id: "554119A03E92AD0A"
-				type: "item"
-				item: "totemic:cedar_sapling"
-			}]
 			rewards: [{
 				id: "6D90AB6BBB7E3483"
-				type: "item"
 				item: "randomium:randomium_ore"
+				type: "item"
 			}]
+			subtitle: "Hint: See the manual"
+			tasks: [{
+				id: "554119A03E92AD0A"
+				item: "totemic:cedar_sapling"
+				type: "item"
+			}]
+			title: "Totemic"
+			x: 7.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["61C9BD54B3A22245"]
+			id: "73C3BBDAA5F3B423"
+			rewards: [{
+				id: "697867BB1F0F464D"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F9783E1F927F338"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
 			title: "Botania"
 			x: 1.0d
 			y: 5.0d
-			dependencies: ["61C9BD54B3A22245"]
-			id: "73C3BBDAA5F3B423"
-			tasks: [{
-				id: "7F9783E1F927F338"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
-			rewards: [{
-				id: "697867BB1F0F464D"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
+			dependencies: ["45821368FB920008"]
+			id: "7AD88741369537B9"
+			rewards: [{
+				id: "4AD6B14AE32F84AD"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09042C286A57C292"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
 			title: "Create"
 			x: -7.0d
 			y: 12.0d
-			dependencies: ["45821368FB920008"]
-			id: "7AD88741369537B9"
-			tasks: [{
-				id: "09042C286A57C292"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
-			rewards: [{
-				id: "4AD6B14AE32F84AD"
-				type: "item"
-				item: "randomium:randomium_ore"
-			}]
 		}
 		{
-			title: "Crossroads"
-			x: -7.0d
-			y: 14.0d
 			dependencies: ["45821368FB920008"]
 			id: "6126274A27E78754"
+			rewards: [{
+				id: "6EB54EE47E3482AA"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "733A3D1AC1EF28B1"
-				type: "item"
 				item: {
-					id: "crossroads:gear_base_large"
 					Count: 1b
+					id: "crossroads:gear_base_large"
 					tag: {
 						material: "copper"
 					}
 				}
-			}]
-			rewards: [{
-				id: "6EB54EE47E3482AA"
 				type: "item"
-				item: "randomium:randomium_ore"
 			}]
+			title: "Crossroads"
+			x: -7.0d
+			y: 14.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Mod-line"
 }

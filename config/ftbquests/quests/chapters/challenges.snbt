@@ -1,149 +1,151 @@
 {
-	id: "00D40C79A474479F"
-	group: ""
-	order_index: 5
-	filename: "challenges"
-	title: "Challenges"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: ""
+	id: "00D40C79A474479F"
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
-			x: -3.0d
-			y: -4.0d
-			subtitle: "Hint : See jei"
 			dependencies: ["45821368FB920008"]
 			id: "6BB07631A8D25441"
+			rewards: [{
+				count: 10
+				id: "4D59AE1B7884DBB4"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			subtitle: "Hint : See jei"
 			tasks: [{
 				id: "7D895810854915FB"
-				type: "item"
 				item: "minecraft:warden_spawn_egg"
-			}]
-			rewards: [{
-				id: "4D59AE1B7884DBB4"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -3.0d
+			y: -4.0d
 		}
 		{
-			x: -3.0d
-			y: -2.0d
-			subtitle: "You need to check \"@mahou knowledge\""
 			dependencies: ["45821368FB920008"]
 			id: "7018A002AD6AF3FA"
+			rewards: [{
+				count: 10
+				id: "21528D6DC1ED19BC"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			subtitle: "You need to check \"@mahou knowledge\""
 			tasks: [{
 				id: "090804AD90716070"
-				type: "item"
 				item: {
-					id: "mahoutsukai:caliburn"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
 					ForgeCaps: {
 						Parent: {
 							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
 							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
 						}
 					}
+					id: "mahoutsukai:caliburn"
+					tag: {
+						Damage: 0
+					}
 				}
-			}]
-			rewards: [{
-				id: "21528D6DC1ED19BC"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -3.0d
+			y: -2.0d
 		}
 		{
-			x: -5.0d
-			y: -4.0d
 			dependencies: ["73C3BBDAA5F3B423"]
 			id: "22024F592782E43E"
+			rewards: [{
+				count: 10
+				id: "7AAA1D45686D0923"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78CC2E6970AD44B7"
-				type: "item"
 				item: "botanicadds:gaiasteel_ingot"
-			}]
-			rewards: [{
-				id: "7AAA1D45686D0923"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -5.0d
+			y: -4.0d
 		}
 		{
-			x: -1.0d
-			y: -2.0d
-			subtitle: "Hint : Alternative recipe"
 			dependencies: ["22891A295C41DCF6"]
 			id: "6B030507C58F8B0A"
+			rewards: [{
+				count: 10
+				id: "4DE35030537F2173"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			subtitle: "Hint : Alternative recipe"
 			tasks: [
 				{
 					id: "71C41936F57DC79D"
-					type: "item"
 					item: "mekanism:qio_drive_supermassive"
+					type: "item"
 				}
 				{
 					id: "5FD9C85F2B249C66"
-					type: "item"
 					item: "mekanism:qio_drive_array"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4DE35030537F2173"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			x: -1.0d
+			y: -2.0d
 		}
 		{
-			title: "Effortless Building"
-			x: -1.0d
-			y: -4.0d
 			dependencies: ["45821368FB920008"]
 			id: "6ED107F9CB96243E"
+			rewards: [{
+				count: 10
+				id: "20660C25260C2362"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2552E86434B1510A"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_building"
 						Count: 1b
+						id: "buildinggadgets:gadget_building"
 						tag: {
 							state: {
+								data: { }
 								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								data: { }
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "447F3636E3AE33CA"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_exchanging"
 						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
 						tag: {
 							state: {
+								data: { }
 								serializer: "buildinggadgets:dummy_serializer"
 								state: {
 									Name: "minecraft:air"
 								}
-								data: { }
 							}
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2EDD1DD41BA00C0D"
-					type: "item"
 					item: {
-						id: "buildinggadgets:gadget_copy_paste"
 						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
 						tag: {
 							mode: 0b
 							template_id: [I;
@@ -154,386 +156,384 @@
 							]
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "20660C25260C2362"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			title: "Effortless Building"
+			x: -1.0d
+			y: -4.0d
 		}
 		{
-			x: -5.0d
-			y: -2.0d
 			dependencies: ["45821368FB920008"]
 			id: "79092D5DC00C5E77"
+			rewards: [{
+				count: 10
+				id: "4BF77843F8411110"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CDA8EB205FD91E4"
-				type: "item"
 				item: "solargeneration:solar_panel_ultimate"
-			}]
-			rewards: [{
-				id: "4BF77843F8411110"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -5.0d
+			y: -2.0d
 		}
 		{
-			x: -7.0d
-			y: -2.0d
 			dependencies: ["45821368FB920008"]
 			id: "56C513805C06D2D4"
+			rewards: [{
+				count: 10
+				id: "3AEEBD4FD9E692E5"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E231FCC34F0FCB0"
-				type: "item"
 				item: "botanypotstiers:creative_terracotta_botany_pot"
-			}]
-			rewards: [{
-				id: "3AEEBD4FD9E692E5"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -7.0d
+			y: -2.0d
 		}
 		{
-			title: "Deep Learning"
-			x: -7.0d
-			y: -4.0d
 			dependencies: ["54E89F30FFAA9E25"]
 			dependency_requirement: "one_completed"
 			id: "6AF186BE03AF56DC"
+			rewards: [{
+				count: 10
+				id: "2B39ACB3795D4AA8"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E6129F14B2DE7B5"
-				type: "item"
 				item: {
-					id: "hostilenetworks:prediction"
 					Count: 1b
+					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
 							id: "hostilenetworks:wither"
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "2B39ACB3795D4AA8"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			title: "Deep Learning"
+			x: -7.0d
+			y: -4.0d
 		}
 		{
-			x: -9.0d
-			y: -4.0d
-			subtitle: "111.111.111.111.111.111 x 9 = 999.999.999.999.999.999 (+1)"
 			dependencies: ["45821368FB920008"]
 			id: "34A988FA443EE185"
+			rewards: [{
+				count: 10
+				id: "136311A6BFD4790C"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
+			subtitle: "111.111.111.111.111.111 x 9 = 999.999.999.999.999.999 (+1)"
 			tasks: [
 				{
 					id: "5819AAD7CC0AA42F"
-					type: "item"
 					item: "extremecobblegenerator:generator"
+					type: "item"
 				}
 				{
-					id: "121292C0E7DB62AB"
-					type: "item"
-					title: "Sturdy stone"
-					item: "quark:sturdy_stone"
+					consume_items: true
 					count: 111111111111111111L
-					consume_items: true
+					id: "121292C0E7DB62AB"
+					item: "quark:sturdy_stone"
+					title: "Sturdy stone"
+					type: "item"
 				}
 				{
-					id: "7A5B7DF83F971522"
-					type: "item"
-					item: "minecraft:cobblestone"
 					consume_items: true
+					id: "7A5B7DF83F971522"
+					item: "minecraft:cobblestone"
+					type: "item"
 				}
 				{
 					id: "7C8813EB53471368"
-					type: "checkmark"
 					title: "Probably not a manual work"
+					type: "checkmark"
 				}
 			]
-			rewards: [{
-				id: "136311A6BFD4790C"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			x: -9.0d
+			y: -4.0d
 		}
 		{
-			x: -9.0d
-			y: -2.0d
 			dependencies: ["45821368FB920008"]
 			id: "377E4A47AEBBF47E"
+			rewards: [{
+				count: 10
+				id: "56B177970148F6DB"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4846DC772B3CA0BA"
-				type: "item"
 				item: "bigreactors:reprocessorcontroller"
-			}]
-			rewards: [{
-				id: "56B177970148F6DB"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -9.0d
+			y: -2.0d
 		}
 		{
-			x: -11.0d
-			y: -2.0d
 			dependencies: ["45821368FB920008"]
 			id: "069FA76164EB689D"
 			tasks: [{
 				id: "39FA38E0816E6E5F"
-				type: "item"
 				item: {
-					id: "gateways:gate_pearl"
 					Count: 1b
+					id: "gateways:gate_pearl"
 					tag: {
 						gateway: "apotheosis:boss_gate_small"
 					}
 				}
+				type: "item"
 			}]
+			x: -11.0d
+			y: -2.0d
 		}
 		{
-			x: -11.0d
-			y: -4.0d
 			dependencies: ["1BD32A3E37F12F83"]
 			id: "4855397B8ECB9235"
+			rewards: [{
+				count: 10
+				id: "262694B0BB41A5B1"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76C1461BEC98BC13"
-				type: "item"
 				item: "aeinfinitybooster:dimension_card"
-			}]
-			rewards: [{
-				id: "262694B0BB41A5B1"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -11.0d
+			y: -4.0d
 		}
 		{
-			x: -11.0d
-			y: 0.0d
 			dependencies: ["45821368FB920008"]
 			id: "21495A781F524DED"
+			rewards: [{
+				count: 10
+				id: "2D8EA5AF4C476B18"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00CD840EA3E07DCD"
+				points: false
 				type: "xp"
 				value: 1000L
-				points: false
 			}]
-			rewards: [{
-				id: "2D8EA5AF4C476B18"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			x: -11.0d
+			y: 0.0d
 		}
 		{
-			x: -9.0d
-			y: 0.0d
-			subtitle: "Can spawn on cemetery and you can trade with you!"
 			dependencies: ["45821368FB920008"]
 			id: "6877B8114539C0F0"
-			tasks: [{
-				id: "3022FE446CEB5374"
-				type: "observation"
-				title: "Look a Grave Guardian"
-				icon: "tombstone:grave_plate"
-				timer: 0L
-				observe_type: 5
-				to_observe: "tombstone:grave_guardian"
-			}]
 			rewards: [{
-				id: "5FB57BE3C9234594"
-				type: "item"
-				item: "randomium:randomium_ore"
 				count: 10
+				id: "5FB57BE3C9234594"
+				item: "randomium:randomium_ore"
+				type: "item"
 			}]
+			subtitle: "Can spawn on cemetery and you can trade with you!"
+			tasks: [{
+				icon: "tombstone:grave_plate"
+				id: "3022FE446CEB5374"
+				observe_type: 5
+				timer: 0L
+				title: "Look a Grave Guardian"
+				to_observe: "tombstone:grave_guardian"
+				type: "observation"
+			}]
+			x: -9.0d
+			y: 0.0d
 		}
 		{
-			x: -7.0d
-			y: 0.0d
 			dependencies: ["45821368FB920008"]
 			id: "276847AC67572F8F"
+			rewards: [{
+				count: 10
+				id: "182676180735777C"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5B5B55A024263A8F"
-					type: "item"
 					item: "botania:shulk_me_not"
+					type: "item"
 				}
 				{
 					id: "07DAA38F5411AF3C"
-					type: "item"
 					item: "botania:heisei_dream"
+					type: "item"
 				}
 				{
 					id: "05AAC0DFEB4CE824"
-					type: "item"
 					item: "minecraft:shulker_spawn_egg"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "182676180735777C"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			x: -7.0d
+			y: 0.0d
 		}
 		{
-			x: -5.0d
-			y: 0.0d
 			dependencies: ["45821368FB920008"]
 			id: "5B0147E2FEAD6884"
+			rewards: [{
+				count: 10
+				id: "0FF0D67A3F74BB6E"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B39ABFDA4A91222"
-				type: "item"
 				item: "crossroads:block_copshowium"
-			}]
-			rewards: [{
-				id: "0FF0D67A3F74BB6E"
 				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
 			}]
+			x: -5.0d
+			y: 0.0d
 		}
 		{
-			title: "Twinite Everything"
-			x: -3.0d
-			y: 0.0d
 			dependencies: ["15FBBDB68B88DEC6"]
 			id: "67D4B7EA1D903FC0"
+			rewards: [{
+				count: 10
+				id: "64885E965DB85B0E"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2EC6D698E91E08D1"
-					type: "item"
 					item: "thermal_extra:area_radius_augment_4"
+					type: "item"
 				}
 				{
 					id: "4D4CB0765D295D28"
-					type: "item"
 					item: "thermal_extra:potion_amplifier_augment_4"
+					type: "item"
 				}
 				{
 					id: "3FCCB9EBFED18DDF"
-					type: "item"
 					item: "thermal_extra:potion_duration_augment_4"
+					type: "item"
 				}
 				{
 					id: "24434FDC22AC196E"
-					type: "item"
 					item: "thermal_extra:rf_coil_augment_4"
+					type: "item"
 				}
 				{
 					id: "4E24BBFDF858300D"
-					type: "item"
 					item: "thermal_extra:rf_coil_storage_augment_4"
+					type: "item"
 				}
 				{
 					id: "7B648F2D25B5283B"
-					type: "item"
 					item: "thermal_extra:rf_coil_xfer_augment_4"
+					type: "item"
 				}
 				{
 					id: "225C1974E8B34CA8"
-					type: "item"
 					item: "thermal_extra:fluid_tank_augment_4"
+					type: "item"
 				}
 				{
 					id: "1AF84AE42C73F077"
-					type: "item"
 					item: "thermal_extra:machine_speed_augment_4"
+					type: "item"
 				}
 				{
 					id: "5A40F26F9D18ECF4"
-					type: "item"
 					item: "thermal_extra:machine_efficiency_augment_4"
+					type: "item"
 				}
 				{
 					id: "6AD63E209783EBBF"
-					type: "item"
 					item: "thermal_extra:dynamo_fuel_augment_4"
+					type: "item"
 				}
 				{
 					id: "0861B15FE27C87E7"
-					type: "item"
 					item: "thermal_extra:dynamo_output_augment_4"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "64885E965DB85B0E"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			title: "Twinite Everything"
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			title: "Pneumatic Kit"
-			x: -1.0d
-			y: 0.0d
 			dependencies: ["45821368FB920008"]
 			id: "7E780FE981787C6D"
+			rewards: [{
+				count: 10
+				id: "2B82E5B92EE47EEF"
+				item: "randomium:randomium_ore"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4A51CDC7E2974DAE"
-					type: "item"
 					item: {
-						id: "pneumaticcraft:pneumatic_helmet"
 						Count: 1b
+						id: "pneumaticcraft:pneumatic_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3D6966E95AAE9720"
-					type: "item"
 					item: {
-						id: "pneumaticcraft:pneumatic_chestplate"
 						Count: 1b
+						id: "pneumaticcraft:pneumatic_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "310CFE35037C277E"
-					type: "item"
 					item: {
-						id: "pneumaticcraft:pneumatic_leggings"
 						Count: 1b
+						id: "pneumaticcraft:pneumatic_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7363ED5F3699D15C"
-					type: "item"
 					item: {
-						id: "pneumaticcraft:pneumatic_boots"
 						Count: 1b
+						id: "pneumaticcraft:pneumatic_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "167696329E09F84E"
-					type: "item"
 					item: "pneumaticcraft:charging_station"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2B82E5B92EE47EEF"
-				type: "item"
-				item: "randomium:randomium_ore"
-				count: 10
-			}]
+			title: "Pneumatic Kit"
+			x: -1.0d
+			y: 0.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Challenges"
 }

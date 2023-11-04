@@ -1,57 +1,69 @@
 {
-	id: "54C01BBDE1C892EA"
-	group: ""
-	order_index: 0
-	filename: "welcome"
-	title: "Welcome"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "54C01BBDE1C892EA"
+	images: [{
+		click: "https://legacy.curseforge.com/minecraft/modpacks/ironberry-expert"
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: ["Is this too easy? See Ironberry!"]
+		image: "ftbquests:textures/gui/info.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 3.0d
+		y: 1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
+			id: "3CAF60F070CA7072"
+			rewards: [{
+				id: "102469176EF96636"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Welcome to Classic Progression Skyblock \\n This modpack dont give you a complete guide of anythings but want to \"experiment\" things that you didnt never used"
+			tasks: [{
+				id: "567F2A8F0E08A324"
+				title: "Welcome"
+				type: "checkmark"
+			}]
 			title: "Phase 0"
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Welcome to Classic Progression Skyblock \\n This modpack dont give you a complete guide of anythings but want to \"experiment\" things that you didnt never used"
-			id: "3CAF60F070CA7072"
-			tasks: [{
-				id: "567F2A8F0E08A324"
-				type: "checkmark"
-				title: "Welcome"
-			}]
-			rewards: [{
-				id: "102469176EF96636"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
 		}
 		{
-			title: "What is a Randomium ore? Can i ride this?"
-			x: 0.0d
-			y: 1.0d
-			subtitle: "Randomium ore can give you if break with right tools , drop everything of this pack , balanced and unbalanced!"
 			dependencies: ["3CAF60F070CA7072"]
 			id: "6402A876BC4C397F"
+			rewards: [{
+				id: "466AE51C46412780"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Randomium ore can give you if break with right tools , drop everything of this pack , balanced and unbalanced!"
 			tasks: [{
 				id: "081CC70E4932C3F3"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "466AE51C46412780"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
+			title: "What is a Randomium ore? Can i ride this?"
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			x: 0.0d
-			y: 3.0d
 			dependencies: ["6402A876BC4C397F"]
 			id: "45821368FB920008"
 			tasks: [{
 				id: "1EABAFF4BD8434C5"
-				type: "checkmark"
 				title: "Its time to Start!"
+				type: "checkmark"
 			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Welcome"
 }
