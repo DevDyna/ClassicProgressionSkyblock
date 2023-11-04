@@ -7,6 +7,8 @@ evilcraft:dark_temple
 minecraft:desert_pyramid
 minecraft:end_city
 minecraft:fortress
+ars_nouveau:guardian_wilden_den
+ars_nouveau:hunter_wilden_den
 minecraft:igloo
 minecraft:jungle_pyramid
 minecraft:mansion
@@ -14,6 +16,7 @@ ae2:meteorite
 minecraft:mineshaft
 minecraft:mineshaft_mesa
 minecraft:monument
+hexerei:nature_coven
 minecraft:nether_fossil
 minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
@@ -28,8 +31,13 @@ minecraft:ruined_portal_swamp
 minecraft:shipwreck
 minecraft:shipwreck_beached
 cloudstorage:sky_temple
+ars_nouveau:stalker_wilden_den
 minecraft:stronghold
 minecraft:swamp_hut
+apotheosis:tower_leaf
+apotheosis:tower_main
+apotheosis:tower_sand
+apotheosis:tower_spruce
 minecraft:village_desert
 minecraft:village_plains
 minecraft:village_savanna

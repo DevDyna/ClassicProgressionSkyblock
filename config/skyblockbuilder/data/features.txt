@@ -130,6 +130,7 @@ minecraft:mangrove_vegetation
 minecraft:meadow_trees
 minecraft:mega_jungle_tree
 minecraft:mega_pine
+thermal:mega_rubberwood_tree
 minecraft:mega_spruce
 minecraft:monster_room
 minecraft:moss_patch
@@ -245,6 +246,7 @@ botania:red_mystical_flower_patch
 supplementaries:road_sign
 apotheosis:rogue_spawner
 minecraft:rooted_azalea_tree
+thermal:rubberwood_tree
 mekanism:salt
 mekanism:salt_retrogen
 minecraft:sculk_patch_ancient_city
@@ -311,6 +313,8 @@ supplementaries:wild_flax
 silentgear:wild_fluffy
 hexerei:willow_spawn
 hexerei:willow_tree
+hexerei:witch_hazel_spawn
+hexerei:witch_hazel_tree
 bigreactors:yellorite_deepslate_ore
 bigreactors:yellorite_ore
 botania:yellow_mystical_flower_patch

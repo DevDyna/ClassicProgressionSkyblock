@@ -35,7 +35,7 @@
 	#Set to false to stop quark from adding its own advancements
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
 	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
@@ -326,9 +326,9 @@
 		"Enable Loose Matching" = true
 		#Enable comparing enchantments to find a replacement
 		"Enable Enchant Matching" = true
+		"Unstackables Only" = false
 		#Allow pulling items from one hotbar slot to another
 		"Check Hotbar" = false
-		"Unstackables Only" = false
 		#Any items you place in this list will be ignored by the restock feature
 		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
@@ -1328,12 +1328,12 @@
 		"Ancient City Loot Quality" = 1
 
 	[world.glimmering_weald]
-		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
-		#Allowed values: [-2,2]
-		"Min Depth Range" = 1.5499999523162842
 		#Experimental, dont change if you dont know what you are doing. Depth max value until which biome will spawn. Increasing will make biome appear more often
 		#Allowed values: [-2,2]
 		"Max Weirdness Range" = 2.0
+		#Experimental, dont change if you dont know what you are doing. Depth min value from which biome will spawn. Decreasing will make biome appear more often
+		#Allowed values: [-2,2]
+		"Min Depth Range" = 1.5499999523162842
 
 [mobs]
 	Wraith = true
